@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Titel på webbplatsen-->
+    <title>FINANX stockbroking</title>
+    <meta name="Finanx börsmäklare" content="börsmäklare">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ikoner -->
+    <script src="https://kit.fontawesome.com/4ed67781cf.js" crossorigin="anonymous"></script>
+    <!-- Fonter -->
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Denna klassen innehåller allt innehåll som är synligt-->
+    <div class="container">
+
+        <header>
+
+            <!-- Mobil-meny huvudnavigering -->
+            <nav id="mobile-nav">
+                <!-- Liten logotyp för mindre skärmar -->
+                <div id="mobileLogo">
+                    <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotype"></a>
+                </div>
+                <input class="navbutton" type="checkbox" id="navbutton" />
+                <!--Med hjälp av denna, samt nästa linje, kommer "hamburger-meny" skapas för mindre skärmstorlekar-->
+                <label class="menu-icon" for="navbutton"><span id="nav-icon"></span></label>
+                <ul class="smallmenu">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="blog.html">Nyheter </a></li>
+
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </nav>
+
+
+            <!-- Stora logotypen -->
+            <div id="bigLogo">
+                <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotype"></a>
+            </div>
+            <!-- Huvudnavigeringen -->
+            <div id="navcontainer">
+                <nav class="mainnav">
+                    <ul>
+                        <li><a class="underlineall" href="info.html">Info</a></li>
+                        <li><a class="underline" href="blog.html">Nyheter</a></li>
+                        <li><a class="underlineall" href="index.html">Hem</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Banner, innehåller stora bilden och text+knapp som ska ligga på bilden-->
+            <div id="banner">
+                <img src="images/bannerimg.jpg" alt="Image of buildings on wallstreet">
+                <!-- Blocket (text+knapp) som ska ligga på bilden -->
+
+            </div>
+
+        </header>
+
+        <main>
+            <!-- Artikel 1-->
+            <article id="article1" class="articles">
+                <h2>Artikel 1</h2>
+                <!-- Kort beskrivande text för artikelns ämne -->
+                <p class="shorttext">En kort introducerande text</p>
+                <!-- Författare -->
+                <p class="author">Skriven av Mikael Becker </p>
+                <!-- Publiceringsdatum -->
+                <p class="published"> 2012-11-01</p>
+
+                <!-- Ett längre citat -->
+                <div class="longquote">
+                    <blockquote> "Den som vid sidan av arbetet med datorn utvecklar sitt seende och sin skarpsynthet genom att teckna, hon eller han kan bli den webb-designer som konstnärligt sett skiljer sig från mängden. Den som ser det andra inte har sett. Och
+                        om jag idag var 17 år, och en dag hoppades på att kunna försörja mig genom att arbeta med webb-design, så skulle jag gå i Karl-Erik Forsbergs fotspår. Jag skulle läsa allt jag kom över om typografi, jag skulle skaffa mig
+                        kalligrafiska redskap och hänge mig åt hantverket trots, eller just därför, att det är med datorer jag skall arbeta."</blockquote>
+                    <!-- Citatföfattare vid längre citat -->
+                    <p class="quoteby"> HC Ericson, professor grafisk design Mittuniversitetet
+                    </p>
+                </div>
+                <!-- Nyckelord -->
+                <p class="keywords">Nyckelord: <a href="">Web design</a>, <a href="">typografi</a>, <a href="">kalligrafi</a></p>
+            </article>
+
+            <!-- Artikel 2-->
+            <article id="article2" class="articles">
+                <h2>Artikel 2</h2>
+                <!-- Kort beskrivande text -->
+                <p class="shorttext">Välja typsnitt är ibland första steget</p>
+                <!-- Författare -->
+                <p class="author">Skriven av Mikael Becker </p>
+                <!-- Publiceringsdatum -->
+                <p class="published"> 2012-11-01 </p>
+                <!-- p1 är för den främsta texten, allmän brödtext -->
+                <p class="p1"> Att välja ett bra typsnitt är bara en liten del av god typografi. Ännu viktigare är vad du gör med typsnittet som storlek, stil, radavstånd, radlängd, färg, kontrast ... <br> <br> Det tvistas om seriff- eller sans-seriff typsnitt
+                    är bäst för skärmläsning. De flesta verkar anse att linjärer (sans-seriffer) är bäst för skärm. Och det stämmer, generellt sett, men det finns seriff- typsnitt som är gjorda med skärm i åtanke och som är bättre än
+                    sans-seriffer gjorda för papper. Viktigast är att använda ett typsnitt som är anpassat för skärm och inte för papper, tex Geneva, Charcoal, Lucida Grande, Verdana, Georgia mfl. Eller de nya “C-typsnitten“ från Microsoft: </p>
+                <!-- Ordnad lista med oordnade listor -->
+                <ol>
+                    <li>Sans-serif
+                        <ul>
+                            <li>Calibri</li>
+                            <li>Candara</li>
+                            <li>Corbel</li>
+                        </ul>
+                    </li>
+
+                    <li> Serif
+                        <ul>
+                            <li>Cambria</li>
+                            <li>Constantia</li>
+
+                        </ul>
+                    </li>
+
+                    <li>Monospace
+                        <ul>
+                            <li>Consolas </li>
+                        </ul>
+                    </li>
+
+                </ol>
+
+                <!-- Listor description typ-->
+                <dl><dt>Det finns tio typsnitt som du kan vara säker på att alla har (nåja), dessa följer med Windows, MS Office, Internet Explorer och Mac;</dt>
+                    <dd>Andale Mono</dd>
+                    <dd>Arial Black</dd>
+                    <dd> Comic Sans MS </dd>
+                    <dd>Courier New</dd>
+                    <dd>Georgia</dd>
+                    <dd>Impact</dd>
+                    <dd>Times New Roman</dd>
+                    <dd>Trebuchet MS</dd>
+                    <dd>Verdana</dd>
+                </dl>
+                <p class="p1"> För en lista med typsnitt så surfa hit:
+                    <a href="http://mkv.itm.miun.se/personal/mikael.becker/typografi/lista.html" target="_blank">Länk</a>. Ett bra typsnitt för skärm har en relativt hög x-höjd och är något bredare med kraftiga linjer. Allt för att skapa ett större
+                    ljusrum inuti bokstaven. Det gör naturligtvis att typsnittet tar större plats än ett typsnitt för papper.</p>
+
+                <p class="p1"> Ett typsnitt för skärm kan inte innehålla lika mycket detaljer som varierande linjetjocklekar och seriffer. Gör att typsnitt för skärm kan se stora och klumpiga ut på papper. Men det går ju att lösa genom att ha en stilmall för
+                    skärm och en för utskrift. Mixtra inte för mycket med bokstavsmellanrummen i brödtext. Värdena är redan bra som standard. Men rubriker kan behöva justeras.</p>
+
+                <!-- Artikelfoto 2-->
+                <div class="articlephoto2"><img src="images/building2.jpg" alt="bild på en">
+                    <p class="photographer">Foto: Charles Beckindale</p>
+                </div>
+
+                <p class="p1">
+                    @ Infoga en stående bild, bredd ungefär en fjärdedel av radlängden. Lägg till fotograf/illustratör och en kort synlig bildtext Respektera texten och läsaren Kursiv och understruken text är mer svårläst på skärm. Så markera kortare citat med
+                    fet text, eller längre citat med ett eget stycke. Radavstånd och marginaler behöver vara något större på skärm jämfört med papper. Radlängd kan vara ungefär densamma som för papper, 55 ± 10 tecken. Tänk på att webbläsare
+                    inte kan avstava (man kan ge avstavningsförslag i html-koden men är det mycket text blir det för mycket jobb). Marginaljustering går alltså att använda men det blir inte bra. 99% använder vänster justering, man behöver inte
+                    ange det i koden det är satt som standard-värde. De flesta webbläsarna är för snåla med radavstånd, öka på 1-2 pixlar eller 10-20 %.
+                    <br><br>
+                    <q>Även det bästa typsnitt kan fördärvas av en slarvigt genomförd typografi.</q>
+                </p>
+                <!-- Citatförfattare -->
+                <p class="quoteby2"> Carl Fredrik Hultenheim </p>
+
+                <!-- Nyckelord -->
+                <p class="keywords"> Nyckelord: <a href="">Typsnitt</a>, <a href="">typografi</a>, <a href="">läsbarhet</a>, <a href="">läslighet</a>, <a href="">webb</a>, <a href="">skärm</a></p>
+            </article>
+
+            <!-- Artikel 3 -->
+            <article id="article3" class="articles">
+                <h2>Artikel 3</h2>
+                <!-- Beskrivande text om artikelns ämne -->
+                <p class="shorttext">Kontrast, för lite, för mycket</p>
+                <!-- Författare -->
+                <p class="author">Skriven av Mikael Becker </p>
+                <!-- Publiceringsdatum -->
+                <p class="published"> 2012-11-01 </p>
+
+                <!-- Artikelfoto 1 -->
+                <div class="articlephoto1"><img src="images/writing.jpg" alt="bild på någon som jobbar">
+                    <!-- Fotograf -->
+                    <p class="photographer">Foto: Charles Beckindale</p>
+                </div>
+
+                <p class="p1">Längre tillbaka i tiden, då de flesta klassiska typsnitten gjordes, var problemet att vi hade svårt att få bra läsbelysning plus att papperet inte var lika bra som idag. Idag är en del skärmar så ljusstarka att det kan vara svårt
+                    att läsa svart text på vit botten. En vanlig 24 tums-skärm har ungefär samma ljusstyrka som 70 stearinljus. Här kan du kontrollera kontrasten mellan de färger du valt: <a href="http://www.etre.com/tools/colourcheck">http://www.etre.com/tools/colourcheck</a>.
+                    För stor kontrast kan vara lika problematisk som för liten kontrast. Här kan du se hur din webbplats ser ut för någon som är färgblind: <a href="http://vischeck.com" target="_blank">vischeck</a>. Här kan du leka fram olika
+                    färgscheman:
+                    <a href="http://kuler.adobe.com" target="_blank">http://kuler.adobe.com</a>. Kom ihåg att kontrollera färgerna på dina länkar också. @ Infoga en liten bild. Lägg till fotograf/illustratör och en kort synlig bildtext Kom ihåg
+                    de typografiska detaljerna Det finns ingen anledning till att inte ha korrekta citat-tecken, tanke-streck osv på internet. En av många sidor där man kan leta reda på koden för specialtecken (character entities): <a href="http://www.digitalmediaminute.com/reference/entity/"
+                        target="_blank">Länk</a>. Indrag istället för blankrad fungerar alldeles utmärkt. Men ett fyrkantsindrag blir i minsta laget, gärna två fyrkanter. Eller varför inte använda anfang. Siffror bokstaveras upp till tolv. Gemena siffror
+                    fungerar jättebra men finns inte i alla typsnitt. Kapitäler går naturligtvis att använda men en skärm är oftast för grov för att man ska kunna se skillnad på äkta och falska kapitäler. </p>
+
+                <!-- Artikelfoto 3 -->
+                <div id="articlephoto3"><img src="images/coins2.jpg" alt="bild på en">
+                    <p class="imgtext">En kort bildtext här</p>
+                    <p class="photographer">Foto: Charles Beckindale</p>
+                </div>
+                <!-- Textklass 4, används när du inte vill att texten ska sluta sig runt bilder -->
+                <p class="p4">@Infoga en liten bild. Lägg till fotograf/illustratör och en kort synlig bildtext.</p>
+
+                <!-- Nyckelord -->
+                <p class="keywords"> Nyckelord: <a href="">Design</a>, <a href="">typografi</a>, <a href="">läsbarhet</a>, <a href="">färg</a></p>
+            </article>
+
+            <!-- Artikel 4 -->
+            <article id="article4" class="articles">
+                <h2>Artikel 4</h2>
+                <!-- Kort beskrivande text -->
+                <p class="shorttext">Frames och tables ska inte användas för layout</p>
+                <!-- Författare -->
+                <p class="author">Skriven av Mikael Becker </p>
+                <!-- Publiceringsdatum-->
+                <p class="published"> 2012-11-01 </p>
+
+                <!-- Artikelfoto 4 -->
+                <div class="articlephoto4"><img src="images/calculator.jpg" alt="bild på en">
+                    <!-- Fotograf-->
+                    <p class="photographer">Foto: Charles Beckindale</p>
+                </div>
+
+                <p class="p1"> Använd inte frames, använd server-side includes istället (eller php, asp ...). Använd inte tabeller för layout, använd CSS. Använd alltid H1-H6 för rubriker, om det inte räcker, lägg till tex h1.svart, om du vill ha flera H1-rubriker
+                    med olika färg. Google och andra blindsurfare förstår då fortfarande att det är en rubrik. Utseendemässigt är det ingen skillnad på &lt;i&gt; och &lt;em&gt;, båda gör texten kursiv, men &lt;i&gt; är bara dekoration, &lt;em&gt;
+                    emphasis talar också om för besökaren att detta är något speciellt. Skilj på innehåll och utseende. Alltså: innehållet struktureras med HTML, medan utseendet styrs helt och hållet av CSS. Titta på tex http://www.csszengarden.com
+                    för inspiration. Använd gärna relativa mått som em, % och inte absoluta mått som px eller pt. Ev kombinerat med att sätta min- och max-värden för kritiska delar, tex menyns spaltbredd. Validera både HTML <a href="http://validator.w3.org/"
+                        target="_blank">http://validator.w3.org/</a> och CSS <a href="http://jigsaw.w3.org/css-validator/" target="_blank">http://jigsaw.w3.org/css-validator/</a>. Bild, ljud och video ska ha motsvarande innehåll som text.
+                </p>
+                <p class=p1>Med sunt förnuft kommer man långt <br>Om det finns en standard, använd den. Tex om jag klickar på logotypen ska jag komma tillbaka till förstasidan. Du ska inte förvirra eller irritera dina besökare. Bakåtknappen vet alla var den
+                    sitter.
+                </p>
+                <p class="p1"> Du måste kunna grunderna först Reglerna eller snarare riktlinjerna har finslipats under lång tid. Du ska givetvis känna till dessa, men reglerna ska också tänjas, prövas, ifrågasättas och utvecklas. Typografin och våra läsvanor
+                    har nog utvecklats/ändrats mer mellan 1996 (då Matthew Carter skapade Georgia och Verdana på uppdrag av Microsoft och internet slog igenom hos gemena man i Sverige) och idag än vad som skedde under hela 1900-talet. De vanligaste
+                    webbläsarna enligt statistik från W3C:</p>
+                <!-- Oordnad lista -->
+                <ul>
+                    <li>Chrome 21 35%</li>
+                    <li>Firefox 15 18%</li>
+                    <li> Explorer 8 8%</li>
+                    <li> Explorer 9 6.5% </li>
+                    <li>Firefox 14 5% </li>
+                    <li>Chrome 22 4%</li>
+                    <li>Safari 5 2%</li>
+                    <li>Safari 6 2%</li>
+                    <li>Firefox 12 1.5%</li>
+                    <li> Firefox 13 1.5%</li>
+                    <li>Explorer 7 1%</li>
+                    <li>Opera 12 1%</li>
+                </ul>
+
+                <p class="keywords"> Nyckelord: <a href="">Design</a>, <a href="">webb</a>, <a href="">webbläsare</a>, <a href="">semantik</a>, <a href="">HTML</a>, <a href="">CSS</a></p>
+            </article>
+
+
+        </main>
+
+        <footer>
+
+            <!-- Lilla logotypen -->
+            <div id="smallLogo">
+                <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotype"></a>
+            </div>
+            <!-- Besök -->
+            <article id="visit">
+                <h6>Besök oss</h6>
+                <!-- p3 används för text i sidfot -->
+                <p class="p3">Wall st. 15 <br> 10705
+                    <br> New York, NY</p>
+            </article>
+            <!-- Kontakt -->
+            <article id="contact">
+                <h6>Kontakt</h6>
+                <p class="p3">Phone: 434 077 9093 <br> E-mail: <a href="">email@domain.com</a></p>
+            </article>
+            <!-- Copyright-text -->
+            <p id="bottomtext">Copyright 2019 FINANX Stockbroking</p>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

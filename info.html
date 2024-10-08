@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Titel på webbplatsen-->
+    <title>FINANX stockbroking</title>
+    <meta name="Finanx börsmäklare" content="börsmäklare">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ikoner -->
+    <script src="https://kit.fontawesome.com/4ed67781cf.js" crossorigin="anonymous"></script>
+    <!-- Fonter -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Denna klassen innehåller allt innehåll som är synligt-->
+    <div class="container">
+
+        <header>
+
+            <!-- Mobil-meny huvudnavigering -->
+            <nav id="mobile-nav">
+                <!-- Liten logotyp för mindre skärmar -->
+                <div id="mobileLogo">
+                    <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotype"></a>
+                </div>
+                <input class="navbutton" type="checkbox" id="navbutton" />
+                <!--Med hjälp av denna, samt nästa linje, kommer "hamburger-meny" skapas för mindre skärmstorlekar-->
+                <label class="menu-icon" for="navbutton"><span id="nav-icon"></span></label>
+                <ul class="smallmenu">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="blog.html">Nyheter </a></li>
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </nav>
+
+
+            <!-- Större skärmar header/navigering -->
+            <!-- Stora logotypen -->
+            <div id="bigLogo">
+                <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotyp"></a>
+            </div>
+            <!-- Huvudnavigeringen -->
+            <div id="navcontainer">
+                <nav class="mainnav">
+                    <ul>
+                        <li><a class="underline" href="info.html">Info</a></li>
+                        <li><a class="underlineall" href="blog.html">Nyheter</a></li>
+                        <li><a class="underlineall" href="index.html">Hem</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Banner, innehåller stora bilden och text+knapp som ska ligga på bilden-->
+            <div id="banner">
+                <img src="images/bannerimg.jpg" alt="Stor bild på byggnader">
+            </div>
+
+        </header>
+
+        <main>
+
+            <!-- info container -->
+            <div class="info-container">
+                <!-- Information om företaget -->
+                <article class="infoarticle">
+                    <h2>Kontakta oss</h2>
+                    <img src="images/company.jpg" alt="Medarbetare">
+                    <p class="p1">Lite information om företaget och kontaktformulär. Företaget hjälper dig att investera i aktier med hjälp av finansanalytiker som ger dig bästa möjliga chans till vinst. Vill du ha hjälp? Skriv din information i de tomma fälten så
+                        kontaktar vi dig så fort vi kan.</p>
+                </article>
+
+                <!-- Kontaktformulär -->
+                <div class="contact-container">
+                    <form class="contactform">
+
+                        <input class="firstname" name="firstname" type="text" placeholder="Förnamn">
+                        <input class="lastname" name="lastname" type="text" placeholder="Efternamn">
+                        <input class="mail" name="mail" type="text" placeholder="Mail@domän.se">
+                        <textarea class="message" name="message" placeholder="Skriv ditt meddelande här..."></textarea>
+                        <input id="submit-message" type="submit" value="submit">
+
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <!-- Lilla logotypen -->
+            <div id="smallLogo">
+                <a href="index.html"><img src="images/logotyp3dark.svg" alt="Finanx logotype"></a>
+            </div>
+            <!-- Besök -->
+            <article id="visit">
+                <h6>Besök oss</h6>
+                <p class="p3">Wall st. 15 <br> 10705
+                    <br> New York, NY</p>
+            </article>
+            <!-- Kontakt -->
+            <article id="contact">
+                <h6>Kontakt</h6>
+                <p class="p3">Phone: 434 077 9093 <br> E-mail: <a href="">email@domain.com</a></p>
+            </article>
+            <!-- Copyright-text -->
+            <p id="bottomtext">Copyright 2019 FINANX Stockbroking</p>
+
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

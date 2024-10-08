@@ -1,0 +1,1460 @@
+    body,
+    .container,
+    header,
+    #banner,
+    main,
+    article,
+    blockquote,
+    p,
+    ul,
+    ol,
+    li,
+    dl,
+    dt,
+    dd,
+    footer {
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    body {
+        width: 100%;
+        background-color: #ebebeb;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+        list-style: none;
+    }
+    
+    .container {
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    img {
+        width: 100%;
+    }
+    /* Fonter */
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    a,
+    ol li,
+    ul li,
+    dl dt,
+    dl dd,
+    input,
+    .author,
+    .published,
+    .photographer,
+    q,
+    .quoteby {
+        font-family: "Titillium", sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header a {
+        font-family: "Titillium", sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    /* Färger */
+    
+    main {
+        background-color: #ffffff;
+    }
+    
+    footer {
+        background-color: #202f33;
+        color: #ffffff;
+    }
+    
+    h1 {
+        color: #202f33;
+    }
+    
+    h2 {
+        color: #dddddd;
+    }
+    
+    .infoarticle h2 {
+        color: #2a4047;
+    }
+    
+    h3,
+    h4,
+    h5 {
+        color: #2a4047;
+    }
+    
+    h6 {
+        color: #dddddd;
+    }
+    
+    .p1,
+    .articles li,
+    .articles dl,
+    blockquote,
+    .keywords,
+    .author,
+    .published,
+    q,
+    .quoteby,
+    .quoteby2 {
+        color: #192428;
+    }
+    
+    .articles h2 {
+        color: #2a4047;
+    }
+    
+    p a {
+        color: #cb8131;
+    }
+    
+    p a:hover {
+        color: #d89854;
+    }
+    /* Fonter/typsnitt regler */
+    
+    .p1 a,
+    .p2 a,
+    .p3 a {
+        font-weight: 600;
+    }
+    
+    .p1 {
+        padding-top: 28px;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
+        line-height: 170%;
+    }
+    
+    .p2 {
+        color: #ffffff;
+        padding: 0.4em 0em;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.3px;
+        word-spacing: 0.3px;
+        line-height: 170%;
+    }
+    
+    .p3 {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        word-spacing: 0.5px;
+        line-height: 170%;
+        margin: 0 auto;
+    }
+    
+    .p4 {
+        clear: both;
+        padding-top: 28px;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
+        line-height: 170%;
+    }
+    /*---*
+    /* Allmänna regler  */
+    
+    .smallmenu li {
+        padding: 1em 0em;
+    }
+    
+    .smallmenu a {
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff;
+        padding: 0.5em 0em;
+        margin-left: 1em;
+        font-size: 20px;
+    }
+    /*---*/
+    
+    a,
+    li a {
+        text-decoration: none;
+    }
+    
+    main ul li {
+        list-style: square;
+    }
+    
+    footer h6 {
+        margin: 0 auto;
+        padding-bottom: 0.4em;
+    }
+    
+    #featured {
+        background-color: #2a4047;
+    }
+    /* Nyheter START */
+    
+    .articles {
+        border-top: 4px solid #2a4047;
+        max-width: 600px;
+        padding-bottom: 1.5em;
+    }
+    
+    .articles h2 {
+        padding-top: 0.3em;
+    }
+    
+    .articles img {
+        width: 100%;
+    }
+    
+    .articles ol {
+        font-size: 17px;
+        font-weight: 00;
+        letter-spacing: 0.4px;
+        word-spacing: 1px;
+        line-height: 180%;
+        padding-left: 2.2em;
+        padding-bottom: 1em;
+    }
+    
+    .articles ul li {
+        line-height: 160%;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        word-spacing: 1px;
+        font-style: normal;
+    }
+    
+    .articles ol ul {
+        padding-left: 1em;
+    }
+    
+    .articles ul {
+        padding-left: 1.1em;
+    }
+    
+    .articles dl {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.4px;
+        word-spacing: 1px;
+        line-height: 160%;
+    }
+    
+    .articles dd {
+        padding-left: 1em;
+        font-weight: normal;
+    }
+    
+    #article1 {
+        margin-top: 2em;
+    }
+    
+    .articlephoto1 {
+        padding-top: 2em;
+    }
+    
+    .articlephoto2 {
+        float: left;
+        width: 25%;
+        padding-top: 2em;
+        padding-right: 1.7em;
+        padding-bottom: 0.5em;
+    }
+    
+    #articlephoto3 {
+        width: 40%;
+        max-width: 150px;
+        margin: 0 auto;
+        padding-top: 34px;
+    }
+    
+    .articlephoto4 {
+        padding-top: 2em;
+    }
+    
+    q {
+        font-size: 17px;
+        font-weight: normal;
+        font-style: italic;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
+        line-height: 160%;
+    }
+    
+    .quoteby2 {
+        padding-top: 0.5em;
+    }
+    
+    .longquote {
+        background-color: #ebebeb;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 28px;
+        margin-bottom: 2em;
+    }
+    
+    .quoteby {
+        padding: 1em 2.5em 2.3em 3.1em;
+    }
+    
+    .quoteby,
+    .quoteby2 {
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
+        line-height: 160%;
+    }
+    
+    .keywords {
+        font-size: 13px;
+        text-align: left;
+        padding-top: 1.5em;
+        margin-top: 34px;
+        font-weight: 400;
+        border-top: 1px solid #dddddd;
+        text-transform: uppercase;
+    }
+    
+    .keywords a {
+        color: #2a4047;
+        font-weight: 600;
+    }
+    
+    .keywords a:hover {
+        color: #6d868e;
+    }
+    
+    .author {
+        border-top: 1px solid #dddddd;
+        padding-top: 1.2em;
+        padding-bottom: 3px;
+    }
+    
+    .author,
+    .published {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        word-spacing: 0.3px;
+        line-height: 160%;
+        text-transform: uppercase;
+    }
+    
+    .shorttext {
+        padding-top: 0.4em;
+        padding-bottom: 0.7em;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        word-spacing: 0.3px;
+        line-height: 170%;
+        color: #2a4047;
+    }
+    
+    blockquote {
+        padding: 1.3em 2.5em 0em 2.5em;
+        clear: both;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.3px;
+        word-spacing: 0.3px;
+        line-height: 160%;
+        font-style: italic;
+    }
+    
+    .imgtext {
+        float: left;
+        font-size: 12px;
+        font-family: "Titillium", sans-serif;
+        text-transform: uppercase;
+        color: #202f33;
+    }
+    
+    .photographer {
+        float: left;
+        font-size: 13px;
+        font-family: "Titillium", sans-serif;
+        text-transform: uppercase;
+        color: #2a4047;
+    }
+    /* Nyheter END */
+    /* Info START*/
+    
+    .info-container {
+        margin-top: 2em;
+        display: grid;
+    }
+    
+    .infoarticle {
+        margin: 0 auto;
+    }
+    
+    .info-container img {
+        margin-top: 1em;
+    }
+    
+    .info-container .articles {
+        border-top: 0;
+    }
+    
+    .info-container .p1 {
+        padding-top: 0.5em;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contactform {
+        width: 100%;
+        display: grid;
+        margin-top: 2.1em;
+        grid-template-columns: 25% 25% 50%;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    
+    .firstname {
+        grid-column: 1/3;
+        grid-row: 1/1;
+        padding: 0.8em 1em;
+        font-size: 16px;
+        margin: 0.5em;
+        outline: 1px solid #202f33;
+    }
+    
+    .lastname {
+        grid-column: 3/4;
+        grid-row: 1/1;
+        padding: 0.8em 1em;
+        font-size: 16px;
+        margin: 0.5em;
+        outline: 1px solid #202f33;
+    }
+    
+    .mail {
+        grid-column: 1/4;
+        grid-row: 2/2;
+        padding: 0.8em 1em;
+        font-size: 16px;
+        margin: 0.5em;
+        outline: 1px solid #202f33;
+    }
+    
+    .message {
+        grid-column: 1/4;
+        grid-row: 3/3;
+        padding: 0.5em 1em;
+        font-size: 16px;
+        min-height: 100px;
+        margin: 0.5em;
+        outline: 1px solid #202f33;
+    }
+    
+    #submit-message {
+        grid-column: 1/1;
+        grid-row: 4/4;
+        margin-left: 0.5em;
+        margin-top: 0.2em;
+        font-family: "Titillium Web", sans-serif;
+        text-transform: uppercase;
+        background-color: #cb8131;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px;
+        min-width: 160px;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        border-radius: 0px;
+        outline: none;
+        border: 0px;
+    }
+    /* Info END */
+    /*------------------------------------ SMALL SIZE ----------------------------------------------------*/
+    
+    @media screen and (max-width:599px) {
+        #bigLogo,
+        #bannerblock h4,
+        #navcontainer,
+        .mainnav {
+            /* Dessa delar ska ej visas i denna skärmstorlek*/
+            display: none;
+            visibility: hidden;
+        }
+        /* Fonternas storlek och tjocklek*/
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+        }
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 28px;
+            font-weight: 800;
+        }
+        h4 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        h6 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .p1,
+        .p2,
+        .p3,
+        .p4 {
+            line-height: 180%;
+        }
+        .p1,
+        .p4 {
+            padding-top: 34px;
+        }
+        /* Allt syngligt innehåll ligger i containern */
+        .container {
+            display: grid;
+            background-color: #ffffff;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto auto auto;
+        }
+        /* Sidhuvud */
+        header {
+            display: grid;
+            width: 100%;
+            grid-column: 1/2;
+            grid-row: 1/1;
+            grid-template-columns: 30% auto 30% 30%;
+            grid-template-rows: auto auto auto auto;
+        }
+        /* Banner som ligger i sidhuvud*/
+        #banner {
+            padding-top: 3em;
+            grid-column: 1/5;
+            grid-row: 1/1;
+        }
+        #banner img {
+            width: 100%;
+        }
+        /* Knappen på bannern */
+        #joinbtn {
+            position: absolute;
+            top: 5.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /* Knapparna */
+        .yellowbtn {
+            font-family: "Titillium Web", sans-serif;
+            text-transform: uppercase;
+            background-color: #cb8131;
+            color: #ffffff;
+            font-size: 16px;
+            min-width: 160px;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            width: 30%;
+            letter-spacing: 1.2px;
+            border-radius: 0px;
+            outline: none;
+            border: 0px;
+        }
+        .yellowbtn:hover {
+            cursor: pointer;
+            background-color: #d38a3c;
+        }
+        button:focus {
+            outline: none;
+        }
+        #bannerblock button {
+            margin-top: -0.7em;
+        }
+        /* Navigation för mindre skärmar */
+        #mobile-nav {
+            position: fixed;
+            z-index: 99;
+            width: 100%;
+            padding: 0.8em 0em;
+            background-color: #202f33;
+            box-shadow: 1px 1px 3px #00000027;
+        }
+        #navbutton {
+            display: none;
+            visibility: hidden;
+        }
+        .navbutton:checked~.smallmenu {
+            max-height: 400px;
+            display: block;
+        }
+        .menu-icon {
+            cursor: pointer;
+            width: 30px;
+            height: 40px;
+            position: absolute;
+            top: 0.5em;
+            left: 1em;
+            float: right;
+            clear: both;
+        }
+        #nav-icon {
+            margin-top: 01em;
+            display: block;
+            transition: background .2s ease-out;
+            background: #ffffff;
+            height: 4px;
+            width: 30px;
+            position: relative;
+        }
+        #nav-icon:before {
+            background: #ffffff;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 10px;
+            transition: all 0.3s ease-out;
+        }
+        #nav-icon:after {
+            background: #ffffff;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            transition: all 0.3s ease-out;
+        }
+        .smallmenu {
+            padding: 0;
+            overflow: hidden;
+            display: none;
+            margin-top: 1em;
+            max-height: 0;
+            list-style: none;
+            transition: max-height 2s ease-in-out;
+        }
+        #mobileLogo {
+            padding: 0;
+            width: 100px;
+            top: 0;
+            margin: 0 auto;
+        }
+        #bigLogo {
+            padding: 0.6em;
+            grid-column: 1/1;
+            grid-row: 2/2;
+        }
+        #bigLogo img {
+            display: block;
+            margin: 0 auto;
+            width: 75%;
+        }
+        /*---*/
+        main {
+            width: 100%;
+            grid-column: 1/2;
+            grid-row: 2/2;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            padding-bottom: 3em;
+        }
+        .articles {
+            width: 90%;
+        }
+        /*-- Startsida START --*/
+        main h1 {
+            grid-row: 2/2;
+            text-align: center;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+        }
+        /* Dagens innehåll */
+        #featured {
+            grid-row: 3/3;
+            display: grid;
+            grid-template-columns: 1% auto 1%;
+            grid-template-rows: auto auto;
+            padding-top: 1.5em;
+            padding: 1.5em 1.5em 3em 1.5em;
+        }
+        #featuredimage {
+            grid-column: 1/4;
+            grid-row: 3/3;
+            max-height: 200px;
+            overflow: hidden;
+        }
+        #featuredimage img {
+            width: 100%;
+        }
+        #featuredcontent {
+            grid-column: 1/4;
+            grid-row: 4/4;
+            padding-top: 1em;
+        }
+        #featuredcontent h3,
+        #featuredcontent p {
+            margin: 0 auto;
+        }
+        /*---*/
+        /* Widgets */
+        #widgets {
+            width: 100%;
+            display: grid;
+            grid-column: 1/3;
+            grid-row: 4/4;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            grid-template-columns: 2em auto 2em;
+            grid-template-rows: 1em auto 0.5em auto 0.5em auto 1em;
+        }
+        .widget {
+            border: 1px solid #dddddd;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .widget h5 {
+            margin: 0 auto;
+            padding: 0.5em;
+            padding-top: 1em;
+        }
+        #widget1 {
+            width: 100%;
+            grid-column: 2/2;
+            grid-row: 2/2;
+        }
+        #widget2 {
+            width: 100%;
+            grid-column: 2/2;
+            grid-row: 4/4;
+        }
+        #gmap_canvas {
+            height: 340px;
+            width: 100%;
+        }
+        #widget3 {
+            width: 100%;
+            grid-column: 2/2;
+            grid-row: 6/6;
+        }
+        /*---*/
+        /* Startsida END ---*/
+        /*--- Info START ---*/
+        .info-container {
+            margin-left: 0;
+            width: 100%;
+            padding-bottom: 3em;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .infoarticle {
+            margin: 0 auto;
+            width: 90%;
+        }
+        .contact-container {
+            margin-top: 2em;
+        }
+        .contactform {
+            width: 90%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .firstname {
+            grid-column: 1/4;
+            grid-row: 1/1;
+        }
+        .lastname {
+            grid-column: 1/4;
+            grid-row: 2/2;
+        }
+        .mail {
+            grid-column: 1/4;
+            grid-row: 3/3;
+        }
+        .message {
+            grid-column: 1/4;
+            grid-row: 4/4;
+        }
+        #submit-message {
+            grid-column: 1/1;
+            grid-row: 5/5;
+        }
+        /*--- Info END ---*/
+        /*---- Sidfot/Footer -----*/
+        footer {
+            grid-column: 1/2;
+            grid-row: 3/3;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto auto auto auto;
+        }
+        #smallLogo {
+            grid-row: 1/1;
+            padding-bottom: 1.5em;
+            padding-top: 2em;
+        }
+        #smallLogo img {
+            width: 40%;
+            padding-left: 2em;
+        }
+        #visit {
+            margin-left: 0;
+            grid-row: 2/2;
+            padding-left: 2.5em;
+            padding-bottom: 1em;
+            padding-right: 2em;
+        }
+        #contact {
+            margin-left: 0;
+            grid-row: 3/3;
+            padding-left: 2.5em;
+            padding-right: 2em;
+            padding-bottom: 3em;
+        }
+        #bottomtext {
+            grid-column: 1/8;
+            grid-row: 4/4;
+            min-height: 3em;
+            padding-bottom: 0em;
+            padding-top: 1.3em;
+            text-align: center;
+            font-size: 13px;
+            border-top: 1px solid #192428;
+        }
+        /*---*/
+    }
+    /*---------------------------- MEDIUM SIZE --------------------------------------------------------*/
+    
+    @media screen and (min-width:600px) and (max-width:900px) {
+        #navcontainer,
+        #bigLogo,
+        #bannerblock h4,
+        .mainnav {
+            display: none;
+            visibility: hidden;
+        }
+        /* Länkar, rubriker storlek och tjocklek*/
+        a {
+            font-weight: 400;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        h4 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        h6 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        /*---*/
+        /* Allt synligt innehåll ligger i containern */
+        .container {
+            position: relative;
+            display: grid;
+            background-color: #ffffff;
+            max-width: 1000px;
+            width: 100%;
+            grid-template-columns: 100%;
+            grid-template-rows: auto auto auto;
+        }
+        header {
+            display: grid;
+            width: 100%;
+            grid-column: 1/2;
+            grid-row: 1/1;
+            grid-template-columns: 30% auto 30% 30%;
+            grid-template-rows: auto auto auto auto;
+        }
+        #banner {
+            width: 100%;
+            grid-column: 1/5;
+            grid-row: 1/1;
+            margin-top: 3em;
+            max-height: 200px;
+            overflow: hidden;
+        }
+        #banner img {
+            width: 100%;
+        }
+        #bannerblock {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 9%;
+            margin: 0 auto;
+            width: 50%;
+            padding: 0em 0.7em;
+            text-align: center;
+        }
+        .yellowbtn {
+            font-family: "Titillium Web", sans-serif;
+            text-transform: uppercase;
+            background-color: #cb8131;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 0.5em 1.8em;
+            letter-spacing: 1.2px;
+            border-radius: 0px;
+            outline: none;
+            border: 0px;
+        }
+        .yellowbtn:hover {
+            cursor: pointer;
+            background-color: #d38a3c;
+        }
+        button:focus {
+            outline: none;
+        }
+        #bannerblock button {
+            margin-top: -0.7em;
+        }
+        /* Navigering i mindre skärmar */
+        #mobile-nav {
+            position: fixed;
+            z-index: 99;
+            width: 100%;
+            padding: 0.8em 0em;
+            background-color: #202f33;
+            box-shadow: 1px 1px 3px #00000027;
+        }
+        #navbutton {
+            display: none;
+            visibility: hidden;
+        }
+        .navbutton:checked~.smallmenu {
+            max-height: 400px;
+            display: block;
+        }
+        .menu-icon {
+            cursor: pointer;
+            width: 30px;
+            height: 40px;
+            position: absolute;
+            top: 0.5em;
+            left: 1em;
+            float: right;
+            clear: both;
+        }
+        #nav-icon {
+            margin-top: 01em;
+            display: block;
+            transition: background .2s ease-out;
+            background: #ffffff;
+            height: 4px;
+            width: 30px;
+            position: relative;
+        }
+        #nav-icon:before {
+            background: #ffffff;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 10px;
+            transition: all 0.3s ease-out;
+        }
+        #nav-icon:after {
+            background: #ffffff;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            transition: all 0.3s ease-out;
+        }
+        .smallmenu {
+            padding: 0;
+            overflow: hidden;
+            display: none;
+            margin-top: 1em;
+            max-height: 0;
+            list-style: none;
+            transition: max-height 2s ease-in-out;
+        }
+        #mobileLogo {
+            padding: 0;
+            width: 6em;
+            top: 0;
+            margin: 0 auto;
+        }
+        #bigLogo {
+            padding: 0.6em;
+            grid-column: 1/1;
+            grid-row: 2/2;
+        }
+        #bigLogo img {
+            display: block;
+            margin: 0 auto;
+            width: 75%;
+        }
+        /*---*/
+        main {
+            grid-column: 1/2;
+            grid-row: 2/2;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            padding-bottom: 2em;
+        }
+        .articles {
+            width: 90%;
+        }
+        /*---- Startsida ----*/
+        main h1 {
+            grid-row: 2/2;
+            text-align: center;
+            padding: 0.7em 0.3em 0.7em 0.3em;
+        }
+        /* Dagens innehåll */
+        #featured {
+            grid-row: 3/3;
+            display: grid;
+            grid-template-columns: 0% auto 55% 1%;
+            grid-template-rows: auto auto;
+            padding: 0;
+        }
+        #featuredimage {
+            grid-column: 2/2;
+            grid-row: 1/1;
+            max-height: 360px;
+            padding: 0;
+            overflow: hidden;
+        }
+        #featuredimage img {
+            width: 100%;
+        }
+        #featuredcontent {
+            grid-column: 3/5;
+            grid-row: 1/2;
+            padding: 0em 1.4em;
+            margin: 0 auto;
+            padding-right: 2em;
+            padding-top: 01em;
+        }
+        #featuredcontent p {
+            max-width: 490px;
+            padding-top: 0.5em;
+            padding-bottom: 0.4em;
+            padding-right: 1em;
+        }
+        #featuredbtn {
+            position: relative;
+            margin-bottom: 1em;
+        }
+        /*---*/
+        /* Widgets */
+        #widgets {
+            width: 95%;
+            margin: 0 auto;
+            display: grid;
+            grid-row: 4/4;
+            padding-top: 5em;
+            padding-bottom: 4em;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .widget {
+            width: 90%;
+            text-align: center;
+            border-bottom: 1px solid #dddddd;
+        }
+        .widget h5 {
+            margin: 0 auto;
+            padding: 1em;
+        }
+        .tradingview-widget-container {
+            max-height: 340px;
+        }
+        #gmap_canvas {
+            width: 100%;
+            height: 340px;
+        }
+        /*---*/
+        /*---- Info START ----*/
+        .info-container {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0em 2em 4em 2em;
+        }
+        .infoarticle {
+            padding: 0em 0.5em 0em 0.5em;
+        }
+        /*---- Info END ----*/
+        /* Sidfot/Footer */
+        footer {
+            grid-column: 1/2;
+            grid-row: 3/3;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #smallLogo {
+            padding-top: 1em;
+            padding-left: 1em;
+            width: 100%;
+            grid-row: 1/1;
+        }
+        #smallLogo img {
+            width: 50%;
+        }
+        #visit,
+        #contact {
+            padding-top: 1em;
+            padding-bottom: 3em;
+        }
+        #visit {
+            grid-row: 2/2;
+        }
+        #contact {
+            grid-row: 2/2;
+        }
+        #bottomtext {
+            grid-column: 1/8;
+            grid-row: 5/5;
+            min-height: 3em;
+            padding-bottom: 0.2em;
+            padding-top: 1em;
+            text-align: center;
+            font-size: 13px;
+            border-top: 1px solid #192428;
+            background-color: #202f33;
+        }
+        /*---*/
+    }
+    /*--------------------------------- LARGE SCREEN------------------------------------------------------*/
+    
+    @media screen and (min-width:901px) {
+        #mobile-nav,
+        #navbutton,
+        .menu-icon,
+        #nav-icon,
+        .smallmenu {
+            /* Dessa delar gäller bara mindre skärmar och döljs här*/
+            display: none;
+            visibility: hidden;
+        }
+        /* Regler för Rubriker */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            letter-spacing: 1px;
+            line-height: 150%;
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 800;
+        }
+        h2 {
+            font-size: 43px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 30px;
+            font-weight: 800;
+            padding-top: 0.6em;
+        }
+        h4 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+        h5 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+        h6 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        /* Containern innehåller allt synligt innehåll */
+        .container {
+            position: relative;
+            display: grid;
+            background-color: #ffffff;
+            max-width: 1300px;
+            width: 100%;
+            grid-template-columns: 100%;
+            grid-template-rows: auto auto auto;
+        }
+        /* Sidhuvud. Innehåller logotyp och navigering */
+        header {
+            display: grid;
+            width: 100%;
+            grid-column: 1/2;
+            grid-row: 1/1;
+            background-color: #202f33;
+            grid-template-columns: 30% auto 30% 30%;
+        }
+        #bigLogo {
+            padding: 0.6em;
+            grid-column: 1/1;
+            grid-row: 1/1;
+        }
+        #bigLogo img {
+            display: block;
+            margin: 0 auto;
+            width: 60%;
+            float: left;
+        }
+        #navcontainer {
+            padding: 2.6%;
+            grid-column: 2/5;
+            grid-row: 1/1;
+        }
+        .mainnav ul {
+            position: absolute;
+            width: 40%;
+            right: 0;
+            margin-top: 1em;
+            margin-right: 6em;
+            padding: 0;
+            list-style: none;
+        }
+        .mainnav ul li {
+            float: right;
+        }
+        .mainnav ul li a {
+            display: block;
+            margin-left: 2.3em;
+            padding: 1% 0%;
+            font-size: 16px;
+            letter-spacing: 1.4px;
+            color: #ffffff;
+        }
+        .underline {
+            border-bottom: 2px solid #ffffff;
+        }
+        .underline:hover {
+            border-bottom: 2px solid #cb8131;
+            color: #cb8131;
+        }
+        .underlineall {
+            border-bottom: 2px solid #2a4047;
+        }
+        .underlineall:hover {
+            border-bottom: 2px solid #cb8131;
+            color: #cb8131;
+        }
+        /*---*/
+        /* Bannern innehåller bild och en ruta med rubrik och knapp */
+        #banner {
+            width: 100%;
+            grid-column: 1/5;
+            grid-row: 2/2;
+            max-height: 200px;
+            overflow: hidden;
+        }
+        #banner img {
+            width: 100%;
+        }
+        #bannerblock {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 2%;
+            background-color: #202f339a;
+            margin: 0 auto;
+            width: 27%;
+            margin-top: 4.3em;
+            padding: 0em 1em;
+            padding-bottom: 1.5em;
+            text-align: center;
+        }
+        #bannerblock h4 {
+            padding-bottom: +.4em;
+            padding-top: 0.6em;
+            margin: 0 auto;
+            color: #ffffff;
+        }
+        .yellowbtn {
+            font-family: "Titillium Web", sans-serif;
+            text-transform: uppercase;
+            background-color: #cb8131;
+            color: #ffffff;
+            font-size: 16px;
+            margin-top: 0.3em;
+            padding: 10px 20px;
+            font-weight: 400;
+            letter-spacing: 1.2px;
+            border-radius: 0px;
+            outline: none;
+            border: 0px;
+        }
+        .yellowbtn:hover {
+            cursor: pointer;
+            background-color: #d38a3c;
+        }
+        button:focus {
+            outline: none;
+        }
+        main {
+            width: 100%;
+            padding-bottom: 7em;
+            overflow: hidden;
+            grid-column: 1/2;
+            grid-row: 2/2;
+            display: grid;
+            background-color: #ffffff;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        /*---- Startsida START ----*/
+        main h1 {
+            margin: 0 auto;
+            padding-top: 1em;
+            padding-bottom: 1.4em;
+            text-align: center;
+            padding-left: 0.3em;
+            padding-right: 0.3em;
+        }
+        /* Dagens innehåll */
+        #featured {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 0% auto 50% 4%;
+            grid-template-rows: auto auto;
+            padding: 0;
+        }
+        #featured h2 {
+            padding-bottom: 0;
+            padding-top: 0.4em;
+        }
+        #featuredimage {
+            grid-column: 2/2;
+            grid-row: 1/1;
+            padding: 0;
+            max-height: 350px;
+        }
+        #featuredcontent {
+            margin-left: 0;
+            max-width: 500px;
+            grid-column: 3/5;
+            grid-row: 1/2;
+            padding: 0em 2em;
+            padding-bottom: 0em;
+        }
+        #featuredbtn {
+            margin-bottom: 2em;
+        }
+        /*---*/
+        /* Widgets */
+        #widgets {
+            width: 100%;
+            display: grid;
+            padding-top: 5em;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #ffffff;
+        }
+        .widget {
+            text-align: center;
+            padding: 0;
+            background-color: #ffffff;
+            border-bottom: 1px solid #dddddd;
+        }
+        .widget h5 {
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #ffffff;
+        }
+        .tradingview-widget-container {
+            max-height: 340px;
+        }
+        #gmap_canvas {
+            width: 100%;
+            height: 340px;
+        }
+        /*---*/
+        /*---- Startsida END ----*/
+        /*---- Info START ----*/
+        .info-container {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0em 2em 0em 2em;
+        }
+        .infoarticle {
+            padding-left: 2em;
+        }
+        .contact-container {
+            width: 90%;
+            padding: 0em 2em 0em 2em;
+            margin-top: 2.5em;
+        }
+        .contactform {
+            padding-right: 2em;
+        }
+        /*---- Info END ----*/
+        /* Sidfot. innehåller logotyp, kontaktinfo, adress och copyright */
+        footer {
+            grid-column: 1/2;
+            grid-row: 3/3;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto 2% auto;
+        }
+        #smallLogo {
+            width: 100%;
+            grid-row: 1/1;
+        }
+        #smallLogo img {
+            padding-top: 1em;
+            width: 50%;
+            padding-left: 1em;
+        }
+        #visit,
+        #contact {
+            padding-top: 2em;
+            padding-bottom: 3em;
+        }
+        #visit {
+            grid-row: 2/2;
+        }
+        #contact {
+            grid-row: 2/2;
+        }
+        #bottomtext {
+            grid-column: 1/4;
+            grid-row: 4/4;
+            min-height: 3em;
+            width: 100%;
+            padding-bottom: 0.2em;
+            padding-top: 1.5em;
+            text-align: center;
+            font-size: 13px;
+            border-top: 1px solid #192428;
+            background-color: #202f33;
+            color: #dddddd;
+        }
+        /*---*/
+    }
